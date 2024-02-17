@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import App1 from "./Assignment 4/App1";
+import "./App.css";
+import App2 from "./Assignment 6/App2";
+import App3 from "./Assignment 7/App3";
+import App4 from "./Assignment 8/App4";
+import App5 from "./Assignment 9/App5";
+import PokemonApp from "./Assignment 10/PokemonApp";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <App1 />
+      <App2 />
+      <App3 />
+      <App4 />
+      <App5 />
+      <PokemonApp/>
     </div>
   );
 }
